@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8dcf9f8e3f93347a2d6776f3ca0a5b, type: 3}
+  m_Name: PGP_LSystemCoralGrowthRuleSO
+  m_EditorClassIdentifier: Assembly-CSharp::ProceduralGrowingPlant.MarineGrowthRuleSO
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  generationMode: 1
+  globalSizeScale: 1
+  stemCount: 1
+  segmentCount: 1
+  rootSpread:
+    min: 0
+    max: 0
+  length:
+    min: 1
+    max: 1
+  width:
+    min: 0.08
+    max: 0.14
+  leanAngle:
+    min: -4
+    max: 4
+  colorVariance: 0.1
+  splineKind: 1
+  splineCurvature: 0.35
+  splineNoise: 0.2
+  splineWave: 0.12
+  splineGravity: 0.05
+  branchChance: 0
+  maxBranchesPerStem: 0
+  branchAngle:
+    min: 28
+    max: 52
+  branchLengthScale:
+    min: 0.28
+    max: 0.55
+  leafChance: 0.15
+  leafScale:
+    min: 0.55
+    max: 0.9
+  lSystemAxiom: F
+  lSystemIterations: 4
+  lSystemMaxSymbols: 1600
+  lSystemRules:
+  - from: F
+    to: 'FF[+F][-F]F[+L]'
+  lSystemStepLength:
+    min: 0.18
+    max: 0.26
+  lSystemTurnAngle:
+    min: 20
+    max: 34
+  lSystemAngleJitter: 7
+  lSystemLengthFalloff: 0.78
+  lSystemWidthFalloff: 0.72
+  growSpeed: 1.35
+  growCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  widthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.35
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  swayAmplitude: 0.025
+  swaySpeed: 0.85
+  heightPhase: 1.6

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49120c7426ef260448e41b71558fc071, type: 3}
+  m_Name: PGP_AcceptanceSpritePackSO2
+  m_EditorClassIdentifier: Assembly-CSharp::ProceduralGrowingPlant.MarineSpritePackSO
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  pieces:
+  - sprite: {fileID: -7484188636574106898, guid: 0d13108942840fd458b5bdffd6553400, type: 3}
+    kind: 0
+    weight: 80
+    defaultScale: {x: 1, y: 1}
+    sizeMode: 2
+    allowFlip: 1
+    allowStretch: 1
+    useSpeciesColor: 1
+    colorTint: {r: 1, g: 1, b: 1, a: 1}
+    bottomSocket: {x: 0, y: 0}
+    topSocket: {x: 0, y: 1}
+    tags: []
+  - sprite: {fileID: 1842872500702609929, guid: 0d13108942840fd458b5bdffd6553400, type: 3}
+    kind: 2
+    weight: 60
+    defaultScale: {x: 1.1, y: 0.8}
+    sizeMode: 2
+    allowFlip: 1
+    allowStretch: 1
+    useSpeciesColor: 1
+    colorTint: {r: 1, g: 1, b: 1, a: 1}
+    bottomSocket: {x: 0, y: 0}
+    topSocket: {x: 0, y: 1}
+    tags: []
+  - sprite: {fileID: 4414082406960841894, guid: 0d13108942840fd458b5bdffd6553400, type: 3}
+    kind: 1
+    weight: 70
+    defaultScale: {x: 0.09, y: 0.22}
+    sizeMode: 2
+    allowFlip: 1
+    allowStretch: 0
+    useSpeciesColor: 1
+    colorTint: {r: 0.85, g: 1, b: 0.9, a: 1}
+    bottomSocket: {x: 0, y: 0}
+    topSocket: {x: 0, y: 1}
+    tags: []
+  - sprite: {fileID: 5473805691234771756, guid: 0d13108942840fd458b5bdffd6553400, type: 3}
+    kind: 4
+    weight: 45
+    defaultScale: {x: 0.02, y: 0.46}
+    sizeMode: 2
+    allowFlip: 1
+    allowStretch: 0
+    useSpeciesColor: 0
+    colorTint: {r: 1, g: 0.78, b: 0.52, a: 1}
+    bottomSocket: {x: 0, y: 0}
+    topSocket: {x: 0, y: 1}
+    tags: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e2c50455db16f4683b44289e28da5a, type: 3}
+  m_Name: PGP_SplineKelpSpeciesSO
+  m_EditorClassIdentifier: Assembly-CSharp::ProceduralGrowingPlant.MarineSpeciesSO
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  speciesId: pgp_spline_long_kelp
+  displayName: "Spline\u957F\u6D77\u8349"
+  kind: 0
+  baseColor: {r: 0.18, g: 0.78, b: 0.52, a: 1}
+  spritePack: {fileID: 11400000, guid: 5b1ef48ba84d0b640a38967c20d57107, type: 2}
+  growthRule: {fileID: 11400000, guid: 4a659ff144b75834991134361d4b8ce2, type: 2}
+  defaultSeed: 13579
+  randomSeedOnGenerate: 0
